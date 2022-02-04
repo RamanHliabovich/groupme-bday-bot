@@ -3,7 +3,7 @@ import csv
 import datetime
 
 # GroupMe Bot ID
-botID = '6b9f44581a8d3e473c1ee36b80'  # insert your Bot ID here
+botID = 'd6793d9cb1db7e78940717284c'  # insert your Bot ID here
 
 # List of names with a birthday on the current date
 birthdayBoys = []
@@ -34,6 +34,7 @@ elif len(birthdayBoys) == 0:
     print('no bdays today')
 
 # construct message text
+postText = ''
 if len(lastNames) == 1:
     postText = '🎉 Happy Birthday to Brother ' + lastNames[0]
 elif len(lastNames) > 1:
