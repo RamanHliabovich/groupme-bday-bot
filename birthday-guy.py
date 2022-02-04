@@ -34,7 +34,6 @@ elif len(birthdayBoys) == 0:
     print('no bdays today')
 
 # construct message text
-postText = "no birthdays today"
 if len(lastNames) == 1:
     postText = '🎉 Happy Birthday to Brother ' + lastNames[0]
 elif len(lastNames) > 1:
